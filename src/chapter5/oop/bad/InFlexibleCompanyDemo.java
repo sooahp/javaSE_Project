@@ -2,6 +2,8 @@ package chapter5.oop.bad;
 
 public class InFlexibleCompanyDemo {
     public static void main(String[] args) {
+    	//Employee e = new Employee();
+    	//Employee e1 = new MereClark("철수", 100);
         
         MereClerk mereClerk1 = new MereClerk("철수", 100);
         MereClerk mereClerk2 = new MereClerk("영희", 100);
